@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.navbar{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar a{
+  padding: 1%;
+  color:whitesmoke;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background-color: grey;
+  color: black;
 }
