@@ -111,9 +111,9 @@ import Navigation from "./Navigation";
 class App extends React.Component{
   state = {
     products: [
-      {id:1, name: "redmi", price: 12, pic: "https://i01.appmifile.com/webfile/globalimg/in/cms/303D1336-249C-0113-DA94-01ED533069F8.jpg" },
-      {id:2, name: "realme", price: 12, pic: "https://image01.realme.net/general/20220322/1647931193820.png" },
-      {id:3, name:"iphone",price:12,pic:"https://itronics.in/wp-content/uploads/2021/09/iphone-13-pink-select-2021.png"}
+      {id:1, name: "redmi", price:'$500', pic: "https://i01.appmifile.com/webfile/globalimg/in/cms/303D1336-249C-0113-DA94-01ED533069F8.jpg" },
+      {id:2, name: "realme", price: '$300', pic: "https://image01.realme.net/general/20220322/1647931193820.png" },
+      {id:3, name:"iphone",price:'$1500',pic:"https://itronics.in/wp-content/uploads/2021/09/iphone-13-pink-select-2021.png"}
     ]
   }
   render() {

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Contact from "./Contact";
 
 export default function Navigation() {
     return (
