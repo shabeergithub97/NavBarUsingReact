@@ -3,10 +3,17 @@ import React, { Component } from 'react'
 export default class Contact extends Component {
     state = {
         Data: [
-        { id: 1, name: "ravi" },
+       /* { id: 1, name: "ravi" },
         { id: 2, name: "siva" },
         { id: 3, name: "ram" },
-        { id: 4, name: "teja" },
+        { id: 4, name: "teja" },*/
+        { id: 1, name: "redmi" },
+        { id: 2, name: "iphone" },
+        { id: 3, name: "realme" },
+        { id: 4, name: "hp Spectre x360" },
+        { id: 5, name: "iPad Pro (6th Gen)" },
+        { id: 6, name: "Hero Xpulse 200 4V (2022)" },
+        { id: 7, name: "Samsung Galaxy S22+" },
       ],
       text:""
   }
@@ -24,10 +31,11 @@ export default class Contact extends Component {
       })
     }
     return (
-      <div>
-        <input name='text'
-          placeholder='enter to search'
+      <div className='searchBar'>
+        <input name='text' className='se22e'
+          placeholder='Search for a product'
           onChange={this.handleSave}
+          style={{ width:"55%",padding:"1% "}}
         />
         {
           duplicateData.map((i) => (
